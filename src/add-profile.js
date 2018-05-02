@@ -1,11 +1,11 @@
-    const addProfile = profile => {
-        const url = '../data/women-info.json';
+    const addProfile = woman => {
+        const url = 'http://localhost:3000/women';
         const options = {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(movie),
+            body: JSON.stringify(woman),
         };
         return fetch(url, options)
             .then(response => response.json());
@@ -28,14 +28,26 @@
     };
 
     $('#add-profile').on('click', function () {
-
-        console.log("Clicking");
+        console.log("Submitting");
         addProfile({
-            name: ($('#woman-profile-name').val()),
+            name: capitalizeEachWord($('#woman-profile-name').val().toString()),
             birthDate: ($('#woman-profile-birthdate').val()),
+            deathDate: ($('#woman-profile-death').val()),
             living: ($('#woman-profile-living').val()),
             bio: ($('#woman-profile-blurb').val())
-        })
+        });
+        $('#woman-profile-name').val("");
+        $('#woman-profile-birthdate').val("");
+        $('#woman-profile-blurb').val("");
+        $('#hidden-input').addClass('invisible');
+        $('#woman-profile-death').val("");
+        $('#woman-profile-living').prop('selectedIndex', 0);
     });
 
-})();
+    const livingValue = $('#woman-profile-living').val();
+
+    $('#woman-profile-living').change(function() {
+        console.log("changed");
+        $('#hidden-input').removeClass('invisible');
+    });
+
