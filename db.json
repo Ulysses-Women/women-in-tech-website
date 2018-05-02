@@ -1,12 +1,12 @@
 {
   "women": [
     {
-      "name": " Grace Hopper",
-      "birthDate": "01/02/03",
-      "living": "no",
-      "bio": "computer scientist",
+      "name": " Some Woman",
+      "birthDate": "1909-08-20",
+      "deathDate": "",
+      "living": "yes",
+      "bio": "This lady kicks ass!",
       "id": 1
     }
-
   ]
 }
