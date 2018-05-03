@@ -34,7 +34,7 @@
             birthDate: ($('#woman-profile-birthdate').val()),
             deathDate: ($('#woman-profile-death').val()),
             living: ($('#woman-profile-living').val()),
-            bio: ($('#woman-profile-blurb').val())
+            bio: ($('#woman-profile-blurb').val()),
         });
         $('#woman-profile-name').val("");
         $('#woman-profile-birthdate').val("");
