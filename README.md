@@ -26,3 +26,9 @@ Thanks!
 
 -Emily
 
+Ladies,
+
+I am starting to create the index page on my own branch.
+
+Jennifer
+
