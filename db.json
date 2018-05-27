@@ -7,6 +7,14 @@
       "living": "yes",
       "bio": "This lady kicks ass!",
       "id": 1
+    },
+    {
+      "name": " Shirley Anne Jackson",
+      "birthDate": "1946-08-05",
+      "deathDate": "",
+      "living": "yes",
+      "bio": "Shirley Ann Jackson is an American physicist, and the eighteenth president of Rensselaer Polytechnic Institute. She is the first African-American woman to have earned a doctorate at the Massachusetts Institute of Technology.",
+      "id": 2
     }
   ]
 }
