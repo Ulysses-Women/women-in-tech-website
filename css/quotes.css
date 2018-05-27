@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, serif;
+}
+
+/*.women {*/
+    /*float: right;*/
+    /*width: 50%;*/
+    /*height: 200px;*/
+/*}*/
+
+blockquote {
+    width: 20%;
+    position: relative;
+    margin: 60px auto 10px auto;
+    padding: 50px;
+    text-align: center;
+    background: #000000;
+    -webkit-box-shadow: 1px 5px 5px #aeaeae;
+    -moz-box-shadow: 1px 5px 5px #aeaeae;
+    -o-box-shadow: 1px 5px 5px #aeaeae;
+    -ms-box-shadow: 1px 5px 5px #aeaeae;
+    box-shadow: 1px 5px 5px #aeaeae;
+    -moz-border-radius: 220px;
+    border-radius: 220px;
+}
+
+blockquote p#text {
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+div#mediumBubble {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    -webkit-box-shadow: 1px 5px 5px #aeaeae;
+    -moz-box-shadow: 1px 5px 5px #aeaeae;
+    -o-box-shadow: 1px 5px 5px #aeaeae;
+    -ms-box-shadow: 1px 5px 5px #aeaeae;
+    box-shadow: 1px 5px 5px #aeaeae;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+div#smallBubble {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    left: 60px;
+    width: 15px;
+    height: 15px;
+    background: #000000;
+    -webkit-box-shadow: 1px 5px 5px #aeaeae;
+    -moz-box-shadow: 1px 5px 5px #aeaeae;
+    -o-box-shadow: 1px 5px 5px #aeaeae;
+    -ms-box-shadow: 1px 5px 5px #aeaeae;
+    box-shadow: 1px 5px 5px #aeaeae;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+p#author {
+    position: relative;
+    width: 60%;
+    padding-left: 20%;
+    margin: auto;
+    bottom: -60px;
+    font: 3.0em Cambria, Georgia, serif;
+    color: #373737;
+}
+
+
