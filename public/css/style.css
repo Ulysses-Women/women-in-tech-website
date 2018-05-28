@@ -23,7 +23,7 @@ h1 {
 header {
   background: #3F51B5;
   color: #FFFFFF;
-  padding: 150px 0;
+  padding: 75px 0;
 }
 header p {
   font-family: 'Allura';
@@ -135,7 +135,7 @@ a:hover, a:active, a:focus {
 }
 
 .timeline-item:nth-child(2) .timeline-img-header {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1458530970867-aaa3700e966d") center center no-repeat;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url(img/ENIACwomen.JPG) center center no-repeat;
   background-size: cover;
 }
 .timeline-item:nth-child(5) .timeline-img-header {
