@@ -2,7 +2,8 @@
   "women": [
     {
       "name": " Grace Hopper",
-      "birthDate": "01/02/03",
+      "birthDate": "1906-12-09",
+      "deathDate": "1992-01-01",
       "living": "no",
       "bio": "computer scientist",
       "id": 1
