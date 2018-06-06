@@ -1,7 +1,8 @@
 {
   "women": [
     {
-      "name": " Grace Hopper",
+      "firstName": "Grace",
+      "lastName": "Hopper",
       "birthDate": "1906-12-09",
       "deathDate": "1992-01-01",
       "living": "no",
@@ -9,7 +10,8 @@
       "id": 1
     },
     {
-      "name": " Another Woman",
+      "firstName": "Another",
+      "lastName": "Woman",
       "birthDate": "2018-05-18",
       "deathDate": "",
       "living": "yes",
@@ -17,7 +19,8 @@
       "id": 2
     },
     {
-      "name": " Emily Rodriguez",
+      "firstName": "Emily",
+      "lastName": "Rodriguez",
       "birthDate": "1987-08-20",
       "deathDate": "",
       "living": "yes",
@@ -25,7 +28,8 @@
       "id": 3
     },
     {
-      "name": " Katie Bourland",
+      "firstName": "Katie",
+      "lastName": "Bourland",
       "birthDate": "1991-07-15",
       "deathDate": "",
       "living": "yes",

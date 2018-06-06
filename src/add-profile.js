@@ -30,7 +30,8 @@
     $('#add-profile').on('click', function () {
         console.log("Submitting");
         addProfile({
-            name: capitalizeEachWord($('#woman-profile-name').val().toString()),
+            firstName: capitalizeEachWord($('#woman-profile-first-name').val().toString().trim()),
+            lastName: capitalizeEachWord($('#woman-profile-last-name').val().toString().trim()),
             birthDate: ($('#woman-profile-birthdate').val()),
             deathDate: ($('#woman-profile-death').val()),
             living: ($('#woman-profile-living').val()),
