@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Quotes by Women in Tech</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/quotes.css">
 </head>
 <body>
-<div class="wrap">
-    <div class="women">
-        <img id="women" src="img/Karen_Spärck-Recovered.png" width="500px">
-    </div>
-    <blockquote id="bigBubble">
-        <p id ="text">
-
-        </p>
-        <div id="mediumBubble">
-
+    <div class="fluid-container col-10">
+        <div class="women col-6">
+            <div id="image"><img class=" float-right" src=""/></div>
+            <!--<img class="img-fluid float-right width-50%" id="women" src="img/Karen_Sparck.png" width="600px" >-->
         </div>
-        <div id="smallBubble">
-
-        </div>
-    </blockquote>
-    <p id="author"></p>
-</div>
+        <div class="quoting float-right col-6">
+        <blockquote id="bigBubble">
+            <p id ="text">
+            </p>
+            <div id="mediumBubble">
+            </div>
+            <div id="smallBubble">
+            </div>
+        </blockquote>
+        <p id="author"></p>
+    </div><!-- end of quoting float-left -->
+    </div><!-- end of fluid-container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src ="js/quotes.js"></script>
 </body>
 </html>
