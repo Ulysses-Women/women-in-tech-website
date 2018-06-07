@@ -1,5 +1,9 @@
 'use strict';
 
+import 'jquery';
+const moment = require('../node_modules/moment');
+
+
 function getProfiles() {
     return fetch('http://localhost:3000/women')
         .then(response => response.json())
@@ -7,9 +11,15 @@ function getProfiles() {
 
 let html = "";
 
+
 function formatDate(date) {
-    return date.toLocaleDateString()
+    return moment(date).format("MMM Do YY");
 }
+
+console.log(formatDate("1992-01-01"));
+
+
+
 function generateCard(profile) {
     html +=
         `<div class ="card">
