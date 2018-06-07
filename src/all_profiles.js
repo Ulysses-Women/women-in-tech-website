@@ -1,7 +1,10 @@
 'use strict';
 
-import 'jquery';
-const moment = require('../node_modules/moment');
+// import $ from '../node_modules/jquery';
+// import moment from '../node_modules/moment'
+
+// const $ = require('jquery');
+const moment = require('moment');
 
 
 function getProfiles() {
