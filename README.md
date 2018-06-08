@@ -26,7 +26,7 @@ to be installed...
 ```
   
   
-first run:  
+Just run:  
     
     npm install
 
