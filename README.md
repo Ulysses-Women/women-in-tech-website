@@ -30,11 +30,14 @@ first run:
     
     npm install
 
-Then: 
+This should install all the existing dependencies from the package.json.
 
-    npm install packagename 
+If it does not, use
 
-for each package that needs to be installed.
+    npm install LIBRARY_NAME
+    
+to install missing libraries. 
+
 
 Once everything is installed just run: 
 
@@ -42,7 +45,7 @@ Once everything is installed just run:
     
 Then visit http://localhost:1313/
 
-This points to the "index.html" page.
+This points to the "index.html" page (currently blank in master, will be our home page).
 
 Let me know if you have questions! 
 
