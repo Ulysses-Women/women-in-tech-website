@@ -7,7 +7,8 @@ node packages so that our project runs similarly to the movies project.
 Once you pull from master, you will see the list of npm libraries that need
 to be installed...
 
-  "dependencies": {
+```java
+"dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
@@ -22,6 +23,8 @@ to be installed...
     "webpack-dev-server": "^3.1.4",
     "whatwg-fetch": "^2.0.4"
   }
+```
+  
   
 first run:  
     
